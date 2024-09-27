@@ -1,4 +1,4 @@
-AI-Powered-platform-Covid19-Drug-Discovery
+AI-Powered-platform-Drug-Discovery
 Environment
 
 The most important python packages are:
