@@ -1,18 +1,39 @@
-AI-Powered-platform-Drug-Discovery
-Environment
+ChemBERTa and ML for NSP15 Inhibition Prediction:
 
-The most important python packages are:
+This repository provides a full pipeline for predicting the inhibition of the NSP15 protein through the use of machine learning models, ChemBERTa embeddings, and ChatGPT-based prompt engineering
 
-python = 3.7.10
+Key Features
 
-pytorch 1.9.0+cu111
 
-tensorboard = 2.5.0
+Dataset:
+The dataset (SMILES-DATA.csv) includes SMILES strings labeled with binary values:
+0: Non-inhibitory compounds
+1: Inhibitory compounds
 
-rdkit = 2021.09.3
+How to Use:
 
-scikit-learn = 1.0
+Dataset
 
-hyperopt = 0.2.7
+1-Utilize the SMILES-DATA.csv file for training and evaluating the model.
+Fine-Tuning ChemBERTa
+2-Execute Finetuning_ChemBERTa.ipynb to fine-tune the ChemBERTa model on the dataset.
+Model Training and Embedding
+3- Use ChemBERTa_and_ML.ipynb to create embeddings and train the models.
+Pre-Trained Checkpoints
+4- Load the pre-trained checkpoints from the ml-checkpoints/ folder using ML_models_playground.ipynb.
+Prompt Engineering with ChatGPT
 
-numpy = 1.19.5
+Requirements:
+
+Python 3.8+
+Libraries:
+PyTorch
+Transformers (for ChemBERTa)
+scikit-learn
+pandas
+Jupyter Notebook
+OpenAI API (for ChatGPT prompt engineering)
+
+
+
+
