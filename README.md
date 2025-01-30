@@ -8,7 +8,7 @@ Key Features
 Dataset:
 The dataset (SMILES-DATA.csv) includes SMILES strings labeled with binary values:
 0: Non-inhibitory compounds
-1: Inhibitory compounds
+1: Inhibitory compounds 
 
 How to Use:
 
