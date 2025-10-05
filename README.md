@@ -14,11 +14,11 @@ Prompt Engineering with ChatGPT
 
 Requirements:
 
-Python 3.8+
-Libraries:
-PyTorch
-Transformers (for ChemBERTa)
-scikit-learn
-pandas
-Jupyter Notebook
+Python 3.8+                                                                                                                                                           
+Libraries:                                                                                                                                                            
+PyTorch                                                                                                                                                               
+Transformers (for ChemBERTa)                                                                                                                                          
+scikit-learn                                                                                                                                                          
+pandas                                                                                                                                                     
+Jupyter Notebook                                                                                                                                                      
 OpenAI API (for ChatGPT prompt engineering)
