@@ -1,5 +1,5 @@
 Dataset:
-1-Utilize the SMILES-DATA.csv file for training and evaluating the model.
+1-Utilize the SMILES-DATA.csv file for training and evaluating the model. 
 
 Fine-Tuning ChemBERTa
 2-Execute Finetuning_ChemBERTa.ipynb to fine-tune the ChemBERTa model on the dataset.
